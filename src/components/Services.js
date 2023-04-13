@@ -6,7 +6,7 @@ function Services() {
       <Title title="our" subTitle="services" />
       <div class="section-center services-center">
         {services.map((service) => {
-          const { id, icon, title, text } = service;
+          const { icon, title, text } = service;
           return (
             <article class="service">
               <span class="service-icon">

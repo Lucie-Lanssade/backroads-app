@@ -7,8 +7,7 @@ function Tours() {
 
       <div class="section-center featured-center">
         {tours.map((tour) => {
-          const { id, image, date, title, info, location, duration, price } =
-            tour;
+          const { image, date, title, info, location, duration, price } = tour;
           return (
             <article class="tour-card">
               <div class="tour-img-container">
